@@ -1,0 +1,272 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+  }
+  
+  li a:hover {
+    background-color: rgb(194, 184, 184);
+  }
+  .background {
+      background-image: url("https://www.londontravelclinic.co.uk/wp-content/uploads/2017/09/Backpacker-photo-1.jpg");
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+    
+  }
+  .background h1 {
+      float: right;
+      margin-right: 480px;
+      margin-top: 50px;
+  }
+  .background p {
+      width:500px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+.bottom-right {
+    position: absolute;
+    margin-top: 300px;
+    right: 16px;
+    margin-right: 50px;;
+  }
+  
+.background button {
+    color:white;
+    background: rgb(58, 56, 56);
+    float: right;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 500px;
+    width:150px;
+    
+
+  
+}
+.s h3 {
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 100px;
+    float: right;
+    font-style: italic ;
+    font-size: 20px;
+}
+.s button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    
+}
+.s1 h3 {
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 100px;
+    float: left;
+    font-style: italic ;
+    font-size: 20px;
+}
+.s1 button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    
+}
+.about-img{
+    width: 50%;
+margin-left: 50px;
+    margin-top: 140px;
+    float: left;
+    background:rgb(209, 208, 208);
+    height: 450px;
+}
+.photos1{
+    margin-right: 80px;
+}
+.places1 {
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    width: 23%;
+    float: right;
+    background: rgb(255, 255, 255);
+    margin-right: 1.5%;
+    box-shadow: 10px 10px 5px #a18564;
+}
+
+.places1 img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+footer {
+    margin-top: 100px;
+    height: 500px;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+.places1 h2 {
+    width:40%;
+    margin-left: 10px;
+    border-right: 1px solid black;
+    float: left;
+}
+.places1:hover .overlay {
+    height: 100%;
+  }
+.places1 p {
+    color: rgb(7, 7, 206);
+   margin-left: 200px;
+   margin-top: 25px;
+     width:50%;
+}
+.photos{
+    margin-left: 80px;
+}
+.places {
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    width: 23%;
+    float: left;
+    background: rgb(255, 255, 255);
+    margin-left: 1.5%;
+    box-shadow: 10px 10px 5px #a18564;
+}
+
+.places img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.places h2 {
+    width:40%;
+    margin-left: 10px;
+    border-right: 1px solid black;
+    float: left;
+}
+.places:hover .overlay {
+    height: 100%;
+  }
+.places p {
+    color: rgb(7, 7, 206);
+   margin-left: 200px;
+   margin-top: 25px;
+     width:50%;
+}
+
+.text {
+    
+ text-align: center;
+    color: white;
+    font-style: italic;
+    margin-top: 60px;
+    margin-left: 60px;
+    
+    width:200px;
+ 
+  }
+.overlay {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #27180b;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  }
+  
+.about {
+    width: 40%;
+    float:right;
+  
+    
+    margin-top: 120px;
+    margin-right: 5%;
+
+}
+.best1 {
+    margin-top: 150px;
+}
+.best1 p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.best {
+    margin-top: 650px;
+}
+.best p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.bottom-img {
+    width: 200px;
+    height:200px;
+    border-radius:200px;
+    margin-left: 10px;
+    border: 5px solid white;
+    filter: grayscale(100%);
+}
+.bottom-img:hover {
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    filter: grayscale(0%);
+}
+div.polaroid {
+    width: 304px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #553e24;
+  }
+  div.rotate_left img:hover {
+      width:400px;
+      height: 323px;
+      box-shadow: 10px 10px 5px #616161;
+
+  }
+  div.rotate_right {
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
